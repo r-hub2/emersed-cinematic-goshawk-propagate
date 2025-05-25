@@ -1,0 +1,22 @@
+Package: propagate
+Type: Package
+LazyLoad: no
+LazyData: no
+Title: Propagation of Uncertainty
+Version: 1.0-7
+Date: 2025-05-24
+Authors@R: person(given = "Andrej-Nikolai",
+                    family = "Spiess",
+                    role = c("aut", "cre"),
+                    email = "draspiess@gmail.com")   
+Maintainer: Andrej-Nikolai Spiess <draspiess@gmail.com>
+Description: Propagation of uncertainty using higher-order Taylor expansion and Monte Carlo simulation.
+License: GPL (>= 2)
+Depends: R (>= 2.13.0), MASS, tmvtnorm, Rcpp (>= 0.10.1), ff,
+        minpack.lm
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2025-05-25 08:14:49 UTC; User
+Repository: CRAN
+Date/Publication: 2025-05-24 17:08:12 UTC
+Author: Andrej-Nikolai Spiess [aut, cre]
